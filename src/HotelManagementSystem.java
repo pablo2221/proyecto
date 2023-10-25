@@ -110,7 +110,7 @@ class Reserva {
 }
 
 public class HotelManagementSystem {
-    private List<Habitacion> habitaciones = new ArrayList<>();
+    public List<Habitacion> habitaciones = new ArrayList<>();
     private List<Huesped> huespedes = new ArrayList<>();
     private List<Reserva> reservas = new ArrayList<>();
 
@@ -195,7 +195,7 @@ public class HotelManagementSystem {
         System.out.println("Habitaciones Disponibles:");
         for (Habitacion habitacion : habitaciones) {
             if (habitacion.estaDisponible()) {
-                System.out.println("Número: " + habitacion.getNumero() + ", Tipo: " + habitacion.getTipo() + ", Precio: " + habitacion.getPrecio());
+                System.out.println("Número: " + habitacion.getNumero() + ", Tipo: " + habitacion.getTipo() + ", Precio: $" + habitacion.getPrecio());
             }
         }
     }
@@ -235,14 +235,14 @@ public class HotelManagementSystem {
 
             switch (opcion) {
                 case 1:
-                    System.out.print("Número de Habitación: ");
+                    System.out.print("Número de Habitación (numero entre 1 a 100): ");
                     int numero = scanner.nextInt();
                     scanner.nextLine();
-                    System.out.print("Tipo: ");
+                    System.out.print("Tipo (Ingrese suite, estandar o doble): ");
                     String tipo = scanner.nextLine();
-                    System.out.print("Capacidad: ");
+                    System.out.print("Capacidad (Ingrese 2, 4, 8 ): ");
                     int capacidad = scanner.nextInt();
-                    System.out.print("Precio: ");
+                    System.out.print("Precio (suite $200, estandar $120, doble $150): ");
                     double precio = scanner.nextDouble();
                     Habitacion habitacion = new Habitacion(numero, tipo, capacidad, precio);
                     hotelSystem.agregarHabitacion(habitacion);
@@ -266,22 +266,22 @@ public class HotelManagementSystem {
                     hotelSystem.borrarHabitacion(numeroHabitacionBorrar);
                     break;
                 case 4:
-                    System.out.print("Nombre del Huésped: ");
+                    System.out.print("Nombre del Huésped (Ejemplo: Nombre Apellido): ");
                     String nombre = scanner.nextLine();
-                    System.out.print("Documento: ");
+                    System.out.print("Documento de identidad (Ejemplo: 1 2345 6789): ");
                     String documento = scanner.nextLine();
-                    System.out.print("Teléfono: ");
+                    System.out.print("Teléfono (Ejemplo: 45676789): ");
                     String telefono = scanner.nextLine();
                     Huesped huesped = new Huesped(nombre, documento, telefono);
                     hotelSystem.agregarHuesped(huesped);
                     System.out.println("Huésped agregado con éxito.");
                     break;
                 case 5:
-                    System.out.print("Documento del Huésped a actualizar: ");
+                    System.out.print("Documento del Huésped a actualizar (Ejemplo: 1 2345 6789): ");
                     String documentoHuespedActualizar = scanner.nextLine();
-                    System.out.print("Nuevo Nombre: ");
+                    System.out.print("Nuevo Nombre (Ejemplo: Nombre Apellido): ");
                     String nuevoNombre = scanner.nextLine();
-                    System.out.print("Nuevo Teléfono: ");
+                    System.out.print("Nuevo Teléfono (Ejemplo: 45676789): ");
                     String nuevoTelefono = scanner.nextLine();
                     hotelSystem.actualizarHuesped(documentoHuespedActualizar, nuevoNombre, nuevoTelefono);
                     break;
