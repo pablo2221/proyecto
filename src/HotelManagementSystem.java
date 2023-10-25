@@ -206,27 +206,29 @@ public class HotelManagementSystem {
 
         while (true) {
             System.out.println("--------------------------------------");
-            System.out.println("           Menú Cenfosuites           ");
+            System.out.println("|           Menú Cenfosuites         |");
             System.out.println("--------------------------------------");
-            System.out.println("            HABITACIONES              ");
+            System.out.println("|            HABITACIONES            |");
             System.out.println("--------------------------------------");
-            System.out.println("1. Agregar Habitación");
-            System.out.println("2. Actualizar Habitación");
-            System.out.println("3. Borrar Habitación");
+            System.out.println("1. Agregar Habitación                |");
+            System.out.println("2. Actualizar Habitación             |");
+            System.out.println("3. Borrar Habitación                 |");
             System.out.println("--------------------------------------");
-            System.out.println("               HUESPEDES              ");
+            System.out.println("|               HUESPEDES            |");
             System.out.println("--------------------------------------");
-            System.out.println("4. Agregar Huésped");
-            System.out.println("5. Actualizar Huésped");
-            System.out.println("6. Borrar Huésped");
+            System.out.println("4. Agregar Huésped                   |");
+            System.out.println("5. Actualizar Huésped                |");
+            System.out.println("6. Borrar Huésped                    |");
             System.out.println("--------------------------------------");
-            System.out.println("               RESERVAS               ");
+            System.out.println("|               RESERVAS             |");
             System.out.println("--------------------------------------");
-            System.out.println("7. Realizar Reserva");
-            System.out.println("8. Cancelar Reserva");
-            System.out.println("9. Mostrar Habitaciones Disponibles");
-            System.out.println("-------------------------------------");
-            System.out.println("10. Salir \n");
+            System.out.println("7. Realizar Reserva                  |");
+            System.out.println("8. Cancelar Reserva                  |");
+            System.out.println("9. Mostrar Habitaciones Disponibles  |");
+            System.out.println("--------------------------------------");
+            System.out.println("10. Salir                            |");
+            System.out.println("--------------------------------------");
+            System.out.println("Ingrese su opcion: ");
 
             int opcion = scanner.nextInt();
             scanner.nextLine();  // Limpiar el salto de línea
