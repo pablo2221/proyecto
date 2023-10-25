@@ -225,7 +225,7 @@ public class HotelManagementSystem {
             System.out.println("7. Realizar Reserva");
             System.out.println("8. Cancelar Reserva");
             System.out.println("9. Mostrar Habitaciones Disponibles");
-            System.out.println("--------------------------------------");
+            System.out.println("-------------------------------------");
             System.out.println("10. Salir \n");
 
             int opcion = scanner.nextInt();
