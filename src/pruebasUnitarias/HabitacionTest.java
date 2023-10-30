@@ -11,10 +11,10 @@ public class HabitacionTest {
     @Test
     public void testConstructor() {
         // Creamos una instancia de Habitacion con valores iniciales
-        Habitacion habitacion = new Habitacion(101, "suite", 2, 200.0);
+        Habitacion habitacion = new Habitacion(100, "suite", 2, 200.0);
 
         // Verificamos que los valores iniciales sean los correctos
-        assertEquals(101, habitacion.getNumero());
+        assertEquals(100, habitacion.getNumero());
         assertEquals("suite", habitacion.getTipo());
         assertEquals(2, habitacion.getCapacidad());
         assertEquals(200.0, habitacion.getPrecio(), 0.01); // Utilizamos delta para la comparación de valores flotantes

@@ -94,7 +94,7 @@ public class CenfoSuites {
 
                 case 5:
                     // Actualizar Huésped
-                    System.out.print("Documento del Huésped a actualizar (Ejemplo: 1 2345 6789): ");
+                    System.out.print("Documento del Huésped a actualizar (Ejemplo: 123456789): ");
                     String documentoHuespedActualizar = scanner.nextLine();
                     System.out.print("Nuevo Nombre (Ejemplo: Nombre Apellido): ");
                     String nuevoNombre = scanner.nextLine();
