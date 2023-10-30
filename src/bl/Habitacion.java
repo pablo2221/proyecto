@@ -2,7 +2,7 @@ package bl;
 
 public class Habitacion {
 
-    // Declaración de variables miembro (atributos de la clase)
+    // Declaración de variables
     private int numero;
     private String tipo;
     private int capacidad;
@@ -12,7 +12,7 @@ public class Habitacion {
     // Constructor de la clase Habitacion
     public Habitacion(int numero, String tipo, int capacidad, double precio) {
 
-        // Inicializa los atributos de la clase con los valores proporcionados en el constructor
+        // Inicializa los atributos de la clase con valores proporcionados en el constructor
         this.numero = numero;
         this.tipo = tipo;
         this.capacidad = capacidad;
@@ -44,7 +44,7 @@ public class Habitacion {
         return tipo;
     }
 
-    // Método "set" para modificar el atributo 'tipo'
+    // Método "set" para modificar el atributo tipo
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
@@ -53,7 +53,7 @@ public class Habitacion {
         return capacidad;
     }
 
-    // Método "set" para modificar el atributo 'capacidad'
+    // Método "set" para modificar el atributo capacidad
     public void setCapacidad(int capacidad) {
         this.capacidad = capacidad;
     }

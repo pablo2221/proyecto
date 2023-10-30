@@ -1,14 +1,14 @@
 package pruebasUnitarias;
 
 import static org.junit.Assert.*;
-import bl.Habitacion;  // Importamos la clase Habitacion
-import bl.Huesped;     // Importamos la clase Huesped
-import bl.Reserva;     // Importamos la clase Reserva
+import bl.Habitacion;
+import bl.Huesped;
+import bl.Reserva;
 import org.junit.Test;
 
 public class ReservaTest {
 
-    // Prueba para verificar que el constructor de Reserva funciona correctamente
+    // verificar que el constructor de Reserva funciona correctamente
     @Test
     public void testConstructor() {
         // Creamos una instancia de Habitacion y una instancia de Huesped

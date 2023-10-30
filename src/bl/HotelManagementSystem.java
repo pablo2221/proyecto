@@ -29,16 +29,15 @@ public class HotelManagementSystem {
             }
         }
         // Si el bucle termina y no se encontró una habitación con el número dado, mostrar un mensaje de error
-        System.out.println("Habitación no encontrada.");
+        System.out.println("La habitación ingresada no fue encontrada.");
     }
-
 
     // Método para borrar una habitación del sistema por su número
     public void borrarHabitacion(int numero) {
         // Crear un iterador para recorrer la lista de habitaciones
         Iterator<Habitacion> iterator = habitaciones.iterator();
 
-        // Iniciar un bucle while para recorrer la lista
+        // Iniciar un ciclo while para recorrer la lista
         while (iterator.hasNext()) {
             // Obtener la siguiente habitación de la lista
             Habitacion habitacion = iterator.next();
