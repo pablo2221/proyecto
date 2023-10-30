@@ -13,7 +13,7 @@ public class ReservaTest {
     public void testConstructor() {
         // Creamos una instancia de Habitacion y una instancia de Huesped
         Habitacion habitacion = new Habitacion(101, "suite", 2, 200.0);
-        Huesped huesped = new Huesped("Nombre Apellido", "1 2345 6789", "45676789");
+        Huesped huesped = new Huesped("Andres Smith", "123456789", "45676789");
 
         // Creamos una instancia de Reserva con la habitación, el huésped y fechas de inicio y fin
         Reserva reserva = new Reserva(habitacion, huesped, "01/01/2024", "05/01/2024");
