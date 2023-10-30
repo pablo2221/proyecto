@@ -14,27 +14,27 @@ public class CenfoSuites {
         // Bucle que permite al usuario interactuar con el sistema mediante un menú
         while (true) {
             System.out.println("--------------------------------------");
-            System.out.println("|           Menú Cenfosuites         |"); // Muestra el título del menú
+            System.out.println("|           Menú Cenfosuites         |");
             System.out.println("--------------------------------------");
             System.out.println("|            HABITACIONES            |");
             System.out.println("--------------------------------------");
-            System.out.println("1. Agregar Habitación                |"); // Opción para agregar una habitación
-            System.out.println("2. Actualizar Habitación             |"); // Opción para actualizar detalles de una habitación
-            System.out.println("3. Borrar Habitación                 |"); // Opción para eliminar una habitación
+            System.out.println("1. Agregar Habitación                |");
+            System.out.println("2. Actualizar Habitación             |");
+            System.out.println("3. Borrar Habitación                 |");
             System.out.println("--------------------------------------");
             System.out.println("|               HUESPEDES            |");
             System.out.println("--------------------------------------");
-            System.out.println("4. Agregar Huésped                   |"); // Opción para agregar un huésped
-            System.out.println("5. Actualizar Huésped                |"); // Opción para actualizar detalles de un huésped
-            System.out.println("6. Borrar Huésped                    |"); // Opción para eliminar un huésped
+            System.out.println("4. Agregar Huésped                   |");
+            System.out.println("5. Actualizar Huésped                |");
+            System.out.println("6. Borrar Huésped                    |");
             System.out.println("--------------------------------------");
             System.out.println("|               RESERVAS             |");
             System.out.println("--------------------------------------");
-            System.out.println("7. Realizar Reserva                  |"); // Opción para realizar una reserva de habitación
-            System.out.println("8. Cancelar Reserva                  |"); // Opción para cancelar una reserva de habitación
-            System.out.println("9. Mostrar Habitaciones Disponibles  |"); // Opción para mostrar habitaciones disponibles
+            System.out.println("7. Realizar Reserva                  |");
+            System.out.println("8. Cancelar Reserva                  |");
+            System.out.println("9. Mostrar Habitaciones Disponibles  |");
             System.out.println("--------------------------------------");
-            System.out.println("10. Salir                            |"); // Opción para salir del programa
+            System.out.println("10. Salir                            |");
             System.out.println("--------------------------------------");
             System.out.println("Ingrese su opcion: ");
 
